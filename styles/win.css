@@ -1,0 +1,69 @@
+.vwin-wmax { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.vwin-top { position: absolute; top: 0; left: 0; }
+
+.vwin-light-shade { background-color: #CCC; opacity: .35; filter:Alpha(Opacity=35); }
+.light-shade { background-color: #CCC; }
+
+.vwin-lines-shade
+{
+	background: #CCC url(images/shade_lines.png) 50% 50% repeat;
+	opacity: .55;
+	filter:Alpha(Opacity=55); 
+}
+
+.vwin-corner-all
+{ 
+	-moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+
+.vwin-caption-bar-back 
+{
+	<?php
+		
+		if( $wet->_isIE && $wet->_IEV <= 6 )
+			echo("background-color: #e9950A;\n");
+		else
+			echo("background: #f6a828 url(images/vwin-caption-backdrop.png) 50% 50% repeat-x;\n");		
+			
+	?>
+	
+}
+
+.vwin-caption-bar 
+{
+	border-bottom: <?php echo($_M_BORDER_PART_1) ?>;
+}
+
+.vwin-caption-light-txt
+{
+	color: #fff;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+.vwin-caption-dark-txt
+{
+	color: #000;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+.vwin-full
+{
+	<?php echo($_M_BORDER_FULL_1); ?>
+	overflow: hidden;
+	text-align: left;
+	white-space: wrap;
+	margin: 0px;
+	padding: 0px;
+}
+
+.vwin-content
+{
+	background-color: #fff;
+}
+
+.vwin-move
+{
+	cursor: move;
+}

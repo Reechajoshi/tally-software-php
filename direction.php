@@ -1,0 +1,7 @@
+<?php
+	//if( (!isset($_SERVER["SERVER_ADDR"])) || ($_SERVER["SERVER_ADDR"] == '127.0.0.1') )
+		
+	// ENSURE THAT THE MORE SPECIFIC COME BEFORE THE LESS SPECIFIC ASS APPLICATBLE
+
+	$_CONTENT_DIR = "content/mgtally/";		
+?>

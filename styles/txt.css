@@ -1,0 +1,96 @@
+a:visited.aorg, a:link.aorg, a:active.aorg
+{
+	text-decoration: none;
+	font-weight:400;
+	white-space: nowrap;
+	font-family: 'Times New Roman','Lucida Sans Unicode', Verdana,'Arial';
+	font-size: <?php echo($_CONTENT_DEF_TEXT_SIZE); ?>pt;
+}
+
+a:hover.aorg
+{
+	text-decoration: underline;
+}
+
+.txt
+{
+	font-weight: 400;
+	white-space: nowrap;
+
+	font-size: <?php echo($_CONTENT_DEF_TEXT_SIZE); ?>pt;
+	font-family: 'Times New Roman','Lucida Sans Unicode', Verdana,'Arial';
+}
+
+.btxt
+{
+	font-weight: 800;
+	white-space: nowrap;
+
+	font-size: <?php echo($_CONTENT_DEF_TEXT_SIZE); ?>pt;
+	font-family: 'Times New Roman','Lucida Sans Unicode', Verdana,'Arial';
+}
+
+.wtxt
+{
+	font-weight: 400;
+	white-space: wrap;
+	color: #000;
+	
+	font-size: <?php echo($_CONTENT_DEF_TEXT_SIZE); ?>pt;
+	font-family: 'Futura','Times New Roman','Georgia','Arial', Verdana;
+}
+
+.wtxt-pre
+{
+	font-weight: 400;
+	white-space: wrap;
+	color: #000;
+	
+	font-size: <?php echo($_CONTENT_DEF_TEXT_SIZE); ?>pt;
+	font-family: 'Courier New', 'Arial';
+}
+
+.txt-organised
+{
+	color: #CA0404
+}
+
+.txt-def-color
+{
+	color: #000
+}
+
+.txt-gray-color
+{
+	color: #888
+}
+
+.txt-bold
+{
+	font-weight: 700;
+}
+
+.txt-wrap
+{
+	white-space: wrap;
+}
+
+.txt-nowrap
+{
+	white-space: nowrap;
+}
+
+.txt-gray
+{
+	color: #555;
+}
+
+.txt-sm
+{
+	font-size: 8pt;
+}
+
+.txt-bg
+{
+	font-size: 12pt;
+}
